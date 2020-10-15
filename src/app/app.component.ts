@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo50';
+  newPost = 'NO CONTENT';
+  enteredValue = '';
+  onAddPost() {
+    this.newPost = this.enteredValue;
+  }
 }
